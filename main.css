@@ -96,3 +96,32 @@ button{
 button:hover{
     opacity: 0.7;
 }
+.users{
+    background-color:rgb(228, 36, 154) ;
+    padding: 15px;
+}
+.features{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+   
+}
+.feature{
+   
+   
+    width: 25%;
+    padding: 30px;
+    box-sizing: border-box;
+    float: left;
+
+   
+
+}
+.goal{
+    width: 70%;
+    float: left;
+}
+.goal-desc .goal-img{
+    width: 35%;
+}
