@@ -7,7 +7,7 @@
     clear: both;
 }
 body{
-    height: 100000px;
+  
 }
 .users{
  
@@ -36,8 +36,9 @@ body{
 
    
     width:55%;
-    position: fixed;
-    margin-left: 22.5%;
+    position:fixed;
+    margin-left: 20%;
+
   
 
    
@@ -121,7 +122,7 @@ button:hover{
 .main-goal{
     background-color: #f8f8f8;
     width: 100%;
-    height: 541px;
+    height: 640px;
 }
 .goal{
  
@@ -141,18 +142,197 @@ button:hover{
     padding: 25px;
     box-sizing: border-box;
     margin-top: 50px;
+    line-height: 25px;
  
   
 }
+.goal-desc h2{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.goal-desc h3{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
 .goal-img{
     width: 50%;
     float: left;
+    padding: 25px;
+    box-sizing: border-box;
     margin-top: 50px;
   
   
     
+}
+.about-us{
+    background-image: url(./images/daf.jpg);
+
+    width: 100%;
+    height: 500px;
+    background-size: cover;
     
 
-  
     
 }
+.about{
+    color: white;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+
+   
+}
+.about h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.types{
+    width: 55%;
+    margin: auto;
+    margin-top: 80px;
+}
+.type{
+    width: 33%;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+}
+.type h3 {
+    margin-bottom: 20px;
+   
+}
+.type p{
+    margin-bottom: 50px;
+}
+.pieces{
+
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+.pieces p{
+
+ 
+    margin-top: 30px;
+   
+}
+.pieces-con{
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.pieces-images{
+ 
+    width: 33.3%;
+    float: left;
+}
+.see-more{
+    background-color: rgb(206,92,159);
+    color: white;
+
+
+}
+.news{
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(248,248,248);
+    height: 500px;
+    overflow: hidden;
+}
+.news h2{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    
+  
+}
+.news-type{
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+    
+
+}
+.post{
+    width: 25%;
+    
+ 
+    height: 150px;
+    float: left;
+    text-align: left;
+    
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+
+    margin: 20px;
+
+}
+.post i{
+    font-size: 8px;
+}
+.contact{
+    background-image: url(./images/footer.jpg);
+    width: 100%;
+    height: 350px;
+    
+    overflow: hidden;
+ 
+}
+.contact-us{
+    width: 55%;
+    margin: auto;
+    
+    margin-top: 50px;
+    
+}
+.contact-item{
+    color: white;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.contact-item li {
+    color:rgb(153,153,153);
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 30px;
+   
+}
+.contact-item p {
+    color:rgb(153,153,153);
+    
+   
+}
+.footer{
+    background-color: rgb(21,21,21);
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    color:rgb(153,153,153);
+}
+.footer img{
+    margin-top: 50px;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
